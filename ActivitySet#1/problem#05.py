@@ -1,5 +1,4 @@
-score = input("Enter Score: ")
-score = float(score)
+score = float(input("Enter Score: "))
 if score>0 and score<1:
     if score >= 0.9:
         print("A grade")
