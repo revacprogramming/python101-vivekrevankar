@@ -4,19 +4,16 @@ while True:
     num = input("Enter a number: ")
     if num == "done":
         break
-    else:   
-         try:
-             n = int(num)
-           if largest is None:
-                 largest = n
-           elif n > largest:
-                 largest = n
-           if smallest is None:
-                 smallest = n
-           elif n < smallest:
-                 smallest = n  
-         except:
-                 print('Invalid input')
-           
+    try:
+        num = int(num)
+        if largest is None or num > largest:
+         largest=num
+        if smallest is None or num < smallest:
+         smallest=num
+    except:
+        print("Invalid input")
+        continue
+    
+
 print("Maximum is", largest)
 print("Minimum is", smallest)
