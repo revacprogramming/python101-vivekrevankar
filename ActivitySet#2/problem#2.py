@@ -1,10 +1,14 @@
+def input_two_numbers():
+    a = int(input("enter a number"))
+    b = int(input("enter a number"))
+    return a,b
 
 def add(a, b):
-    pass  # ...
+    return a+b
 
 
 def output(a, b, sum):
-    pass  # ...
+    print(f"{a} + {b} is {sum}")
 
 
 def main():
