@@ -1,7 +1,7 @@
 
 
 def get_cs():
-    """get string input"""
+    """get string cs """
 
 
 def cs_to_lot(cs):
@@ -17,4 +17,7 @@ def main():
 
 if __name__ == '__main__':
     main() 
+
+
+
 
