@@ -1,12 +1,12 @@
-
+import re 
 
 def get_cs():
-    """get string cs """
-
+    s = input ("enter the string:");
+    return s;
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    list = list(cs.split(';'));
+    return list;
 
 def main():
     cs = get_cs()
@@ -17,7 +17,3 @@ def main():
 
 if __name__ == '__main__':
     main() 
-
-
-
-
