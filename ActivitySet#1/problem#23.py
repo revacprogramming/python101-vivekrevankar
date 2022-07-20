@@ -1,13 +1,9 @@
-# problem 5
 
+class test:
+    def calculate(self,x,y):
+        print(f"The price is {x*y}");
 
-
-def computepay(h, r):
-    pass  # ...
-
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)
+obj = test()
+obj.price = 100;
+obj.quantity = 5;
+obj.calculate(obj.price,obj.quantity);
