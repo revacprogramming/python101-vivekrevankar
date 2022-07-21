@@ -1,7 +1,16 @@
 
 
 class Menu:
-    """fill in class definition here"""
+    def __init__(self):
+      self=dict()
+
+      def add(self,item,price):
+        self[item]=price
+
+      def show(self):
+        for i,j in self.items():
+          print(i,j)
+
 
 
 m = Menu()  # Menu is a class
