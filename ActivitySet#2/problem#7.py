@@ -1,5 +1,4 @@
 class Menu():
-    """fill in class definition here"""
     def __init__(self,order,rate):
         self.order=order
         self.rate=rate
@@ -8,6 +7,7 @@ class Menu():
       return (self.order+str(self.rate),other.order+str(other.rate) )  
 
 m = Menu("idly", 10)
-n=Menu("vada", 20)  # Hint: operator overloading special methods (__add__, __sub__, etc.)
+n=Menu("vada", 20)  
+
 for i in (m+n):
   print(i)
